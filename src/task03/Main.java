@@ -21,7 +21,7 @@ public class Main {
         for (String word : someSymbolMassive) {
             char[] chars = word.toLowerCase().toCharArray();
             Arrays.sort(chars);
-            result.append(new String(chars)).append(" ");    // Append sorted chars as string to result
+            result.append(new String(chars)).append(" ");
         }
         System.out.println(result);
     }
